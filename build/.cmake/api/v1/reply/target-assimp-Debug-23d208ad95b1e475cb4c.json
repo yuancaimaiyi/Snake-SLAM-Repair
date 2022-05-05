@@ -1,0 +1,4617 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "External/saiga/submodules/assimp/bin/libassimpd.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"INSTALL",
+			"TARGET_LINK_LIBRARIES",
+			"TARGET_COMPILE_OPTIONS",
+			"ADD_DEFINITIONS",
+			"add_definitions",
+			"DefaultBuildType",
+			"include",
+			"add_compile_definitions",
+			"INCLUDE_DIRECTORIES",
+			"include_directories",
+			"TARGET_INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"External/saiga/submodules/assimp/code/CMakeLists.txt",
+			"External/saiga/submodules/assimp/CMakeLists.txt",
+			"External/saiga/cmake/helper_macros.cmake",
+			"External/saiga/CMakeLists.txt",
+			"External/saiga/cmake/Saiga_compiler_flags.cmake",
+			"External/saiga/submodules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1142,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1279,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1182,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1267,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1275,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1151,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1067,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 577,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 490,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1027,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 80,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 92,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 111,
+				"parent" : 12
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 117,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 954,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1123,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1040,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1043,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 878,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1039,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1055,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1126,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1157,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1266,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fvisibility=hidden -fno-strict-aliasing -Wall -Wno-long-long  -std=c++17 -g -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "ASSIMP_BUILD_DLL_EXPORT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "ASSIMP_BUILD_NO_C4D_IMPORTER"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ASSIMP_BUILD_NO_OWN_ZLIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "CMAKE_DEBUG"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "CUDA_DEBUG"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "OPENDDLPARSER_BUILD"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "RAPIDJSON_HAS_STDSTRING=1"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "RAPIDJSON_NOMEMBERITERATORCLASS"
+				},
+				{
+					"define" : "assimp_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib/pugixml/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib/openddlparser/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/usr/include/minizip"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				8,
+				9,
+				11,
+				12,
+				13,
+				15,
+				17,
+				18,
+				20,
+				21,
+				22,
+				24,
+				25,
+				26,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				35,
+				36,
+				37,
+				38,
+				44,
+				47,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				101,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				115,
+				116,
+				120,
+				121,
+				122,
+				123,
+				124,
+				126,
+				128,
+				130,
+				132,
+				135,
+				136,
+				138,
+				140,
+				142,
+				144,
+				146,
+				149,
+				152,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				168,
+				172,
+				174,
+				177,
+				181,
+				183,
+				185,
+				188,
+				193,
+				195,
+				198,
+				204,
+				206,
+				208,
+				210,
+				213,
+				215,
+				217,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				233,
+				235,
+				237,
+				239,
+				242,
+				244,
+				247,
+				252,
+				254,
+				256,
+				258,
+				259,
+				261,
+				262,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				274,
+				277,
+				279,
+				283,
+				285,
+				287,
+				289,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				300,
+				304,
+				306,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				320,
+				322,
+				324,
+				327,
+				332,
+				338,
+				342,
+				344,
+				346,
+				349,
+				353,
+				356,
+				357,
+				359,
+				362,
+				364,
+				366,
+				368,
+				370,
+				372,
+				374,
+				376,
+				378,
+				380,
+				382,
+				384,
+				385,
+				388,
+				390,
+				392,
+				394,
+				397,
+				398,
+				401,
+				402,
+				406,
+				407,
+				409,
+				411,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				429,
+				434,
+				436,
+				448,
+				449
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-strict-aliasing  -Wall     -Wall -O3 -march=native -Wno-reorder -g -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "ASSIMP_BUILD_DLL_EXPORT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "ASSIMP_BUILD_NO_C4D_IMPORTER"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ASSIMP_BUILD_NO_OWN_ZLIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "CMAKE_DEBUG"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "CUDA_DEBUG"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "OPENDDLPARSER_BUILD"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "RAPIDJSON_HAS_STDSTRING=1"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "RAPIDJSON_NOMEMBERITERATORCLASS"
+				},
+				{
+					"define" : "assimp_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib/pugixml/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../contrib/openddlparser/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/usr/include/minizip"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				395,
+				458
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "zlibstatic::@72144b0e42b4e6100ac1"
+		}
+	],
+	"id" : "assimp::@349f475206c893dca44f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../lib/libzd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lminizip",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "assimp",
+	"nameOnDisk" : "libassimpd.so",
+	"paths" : 
+	{
+		"build" : "External/saiga/submodules/assimp/code",
+		"source" : "External/saiga/submodules/assimp/code"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CApi",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Common",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38
+			]
+		},
+		{
+			"name" : "include\\assimp",
+			"sourceIndexes" : 
+			[
+				39,
+				40,
+				41,
+				42,
+				49,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539
+			]
+		},
+		{
+			"name" : "Logging",
+			"sourceIndexes" : 
+			[
+				43,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"name" : "Exporter",
+			"sourceIndexes" : 
+			[
+				47,
+				48
+			]
+		},
+		{
+			"name" : "PostProcessing",
+			"sourceIndexes" : 
+			[
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		},
+		{
+			"name" : "MaterialSystem",
+			"sourceIndexes" : 
+			[
+				112,
+				113
+			]
+		},
+		{
+			"name" : "STEPParser",
+			"sourceIndexes" : 
+			[
+				114,
+				115,
+				116,
+				117
+			]
+		},
+		{
+			"name" : "AssetLib\\AMF",
+			"sourceIndexes" : 
+			[
+				118,
+				119,
+				120,
+				121,
+				122,
+				123
+			]
+		},
+		{
+			"name" : "AssetLib\\3DS",
+			"sourceIndexes" : 
+			[
+				124,
+				125,
+				126,
+				127,
+				361,
+				362
+			]
+		},
+		{
+			"name" : "AssetLib\\AC",
+			"sourceIndexes" : 
+			[
+				128,
+				129
+			]
+		},
+		{
+			"name" : "AssetLib\\ASE",
+			"sourceIndexes" : 
+			[
+				130,
+				131,
+				132,
+				133
+			]
+		},
+		{
+			"name" : "AssetLib\\ASSBIN",
+			"sourceIndexes" : 
+			[
+				134,
+				135,
+				363,
+				364,
+				365,
+				366
+			]
+		},
+		{
+			"name" : "AssetLib\\B3D",
+			"sourceIndexes" : 
+			[
+				136,
+				137
+			]
+		},
+		{
+			"name" : "AssetLib\\BVH",
+			"sourceIndexes" : 
+			[
+				138,
+				139
+			]
+		},
+		{
+			"name" : "AssetLib\\COLLADA",
+			"sourceIndexes" : 
+			[
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				373,
+				374
+			]
+		},
+		{
+			"name" : "AssetLib\\DXF",
+			"sourceIndexes" : 
+			[
+				146,
+				147,
+				148
+			]
+		},
+		{
+			"name" : "AssetLib\\CSM",
+			"sourceIndexes" : 
+			[
+				149,
+				150
+			]
+		},
+		{
+			"name" : "AssetLib\\HMP",
+			"sourceIndexes" : 
+			[
+				151,
+				152,
+				153,
+				154
+			]
+		},
+		{
+			"name" : "AssetLib\\IRRMESH",
+			"sourceIndexes" : 
+			[
+				155,
+				156,
+				157,
+				158
+			]
+		},
+		{
+			"name" : "AssetLib\\IRR",
+			"sourceIndexes" : 
+			[
+				159,
+				160
+			]
+		},
+		{
+			"name" : "AssetLib\\LWO",
+			"sourceIndexes" : 
+			[
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167
+			]
+		},
+		{
+			"name" : "AssetLib\\LWS",
+			"sourceIndexes" : 
+			[
+				168,
+				169
+			]
+		},
+		{
+			"name" : "AssetLib\\M3D",
+			"sourceIndexes" : 
+			[
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				371,
+				372
+			]
+		},
+		{
+			"name" : "AssetLib\\MD2",
+			"sourceIndexes" : 
+			[
+				176,
+				177,
+				178,
+				179
+			]
+		},
+		{
+			"name" : "AssetLib\\MD3",
+			"sourceIndexes" : 
+			[
+				180,
+				181,
+				182
+			]
+		},
+		{
+			"name" : "AssetLib\\MD5",
+			"sourceIndexes" : 
+			[
+				183,
+				184,
+				185,
+				186
+			]
+		},
+		{
+			"name" : "AssetLib\\MDC",
+			"sourceIndexes" : 
+			[
+				187,
+				188,
+				189,
+				190
+			]
+		},
+		{
+			"name" : "AssetLib\\MDL",
+			"sourceIndexes" : 
+			[
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205
+			]
+		},
+		{
+			"name" : "AssetLib\\NFF",
+			"sourceIndexes" : 
+			[
+				206,
+				207
+			]
+		},
+		{
+			"name" : "AssetLib\\NDO",
+			"sourceIndexes" : 
+			[
+				208,
+				209
+			]
+		},
+		{
+			"name" : "AssetLib\\OFF",
+			"sourceIndexes" : 
+			[
+				210,
+				211
+			]
+		},
+		{
+			"name" : "AssetLib\\OBJ",
+			"sourceIndexes" : 
+			[
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				355,
+				356
+			]
+		},
+		{
+			"name" : "AssetLib\\OGRE",
+			"sourceIndexes" : 
+			[
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229
+			]
+		},
+		{
+			"name" : "AssetLib\\OPENGEX",
+			"sourceIndexes" : 
+			[
+				230,
+				231,
+				232,
+				357,
+				358
+			]
+		},
+		{
+			"name" : "AssetLib\\PLY",
+			"sourceIndexes" : 
+			[
+				233,
+				234,
+				235,
+				236,
+				359,
+				360
+			]
+		},
+		{
+			"name" : "AssetLib\\MS3D",
+			"sourceIndexes" : 
+			[
+				237,
+				238
+			]
+		},
+		{
+			"name" : "AssetLib\\COB",
+			"sourceIndexes" : 
+			[
+				239,
+				240,
+				241
+			]
+		},
+		{
+			"name" : "AssetLib\\BLEND",
+			"sourceIndexes" : 
+			[
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258
+			]
+		},
+		{
+			"name" : "AssetLib\\IFC",
+			"sourceIndexes" : 
+			[
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271
+			]
+		},
+		{
+			"name" : "AssetLib\\XGL",
+			"sourceIndexes" : 
+			[
+				272,
+				273
+			]
+		},
+		{
+			"name" : "AssetLib\\FBX",
+			"sourceIndexes" : 
+			[
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380
+			]
+		},
+		{
+			"name" : "AssetLib\\Q3D",
+			"sourceIndexes" : 
+			[
+				300,
+				301
+			]
+		},
+		{
+			"name" : "AssetLib\\Q3BSP",
+			"sourceIndexes" : 
+			[
+				302,
+				303,
+				304,
+				305,
+				306
+			]
+		},
+		{
+			"name" : "AssetLib\\RAW",
+			"sourceIndexes" : 
+			[
+				307,
+				308
+			]
+		},
+		{
+			"name" : "AssetLib\\SIB",
+			"sourceIndexes" : 
+			[
+				309,
+				310
+			]
+		},
+		{
+			"name" : "AssetLib\\SMD",
+			"sourceIndexes" : 
+			[
+				311,
+				312
+			]
+		},
+		{
+			"name" : "AssetLib\\STL",
+			"sourceIndexes" : 
+			[
+				313,
+				314,
+				381,
+				382
+			]
+		},
+		{
+			"name" : "AssetLib\\TERRAGEN",
+			"sourceIndexes" : 
+			[
+				315,
+				316
+			]
+		},
+		{
+			"name" : "AssetLib\\3D",
+			"sourceIndexes" : 
+			[
+				317,
+				318
+			]
+		},
+		{
+			"name" : "AssetLib\\X",
+			"sourceIndexes" : 
+			[
+				319,
+				320,
+				321,
+				322,
+				323,
+				383,
+				384
+			]
+		},
+		{
+			"name" : "AssetLib\\X3D",
+			"sourceIndexes" : 
+			[
+				324,
+				325,
+				385,
+				386
+			]
+		},
+		{
+			"name" : "AssetLib\\GLTF",
+			"sourceIndexes" : 
+			[
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				387,
+				388,
+				389,
+				390
+			]
+		},
+		{
+			"name" : "AssetLib\\3MF",
+			"sourceIndexes" : 
+			[
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				391,
+				392
+			]
+		},
+		{
+			"name" : "AssetLib\\MMD",
+			"sourceIndexes" : 
+			[
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354
+			]
+		},
+		{
+			"name" : "AssetLib\\ASSXML",
+			"sourceIndexes" : 
+			[
+				367,
+				368,
+				369,
+				370
+			]
+		},
+		{
+			"name" : "AssetLib\\PBRT",
+			"sourceIndexes" : 
+			[
+				393,
+				394
+			]
+		},
+		{
+			"name" : "AssetLib\\ASSJSON",
+			"sourceIndexes" : 
+			[
+				395,
+				396,
+				397,
+				398,
+				399
+			]
+		},
+		{
+			"name" : "AssetLib\\STEP",
+			"sourceIndexes" : 
+			[
+				400,
+				401
+			]
+		},
+		{
+			"name" : "Contrib\\Poly2Tri",
+			"sourceIndexes" : 
+			[
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412
+			]
+		},
+		{
+			"name" : "Contrib\\Clipper",
+			"sourceIndexes" : 
+			[
+				413,
+				414
+			]
+		},
+		{
+			"name" : "Contrib\\openddl_parser",
+			"sourceIndexes" : 
+			[
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427
+			]
+		},
+		{
+			"name" : "Contrib\\open3dgc",
+			"sourceIndexes" : 
+			[
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456
+			]
+		},
+		{
+			"name" : "ziplib",
+			"sourceIndexes" : 
+			[
+				457,
+				458,
+				459
+			]
+		},
+		{
+			"name" : "Contrib\\Pugixml",
+			"sourceIndexes" : 
+			[
+				460,
+				461
+			]
+		},
+		{
+			"name" : "Contrib\\stb",
+			"sourceIndexes" : 
+			[
+				462
+			]
+		},
+		{
+			"name" : "Compiler",
+			"sourceIndexes" : 
+			[
+				540,
+				541,
+				542
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Assimp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/CApi/CInterfaceIOWrapper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/CApi/CInterfaceIOWrapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/BaseImporter.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/BaseProcess.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/BaseProcess.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/Importer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/ScenePrivate.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/PostStepRegistry.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/ImporterRegistry.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/DefaultProgressHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/DefaultIOStream.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/DefaultIOSystem.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/ZipArchiveIOSystem.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/PolyTools.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Importer.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/IFF.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/SGSpatialSort.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/VertexTriangleAdjacency.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/VertexTriangleAdjacency.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/SpatialSort.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/SceneCombiner.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/ScenePreprocessor.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/ScenePreprocessor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/SkeletonMeshBuilder.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/StandardShapes.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/TargetAnimation.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/TargetAnimation.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/RemoveComments.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Subdivision.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/scene.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Bitmap.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Version.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/CreateAnimMesh.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/simd.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/simd.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/material.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/AssertHandler.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Exceptional.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/DefaultLogger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/LogStream.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Logger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/NullLogger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/Win32DebugLogStream.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/DefaultLogger.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/FileLogStream.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Common/StdOStreamLogStream.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Common/Exporter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/CApi/AssimpCExport.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/BlobIOSystem.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/CalcTangentsProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/CalcTangentsProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ComputeUVMappingProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ComputeUVMappingProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ConvertToLHProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ConvertToLHProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/EmbedTexturesProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/EmbedTexturesProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FindDegenerates.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FindDegenerates.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FindInstancesProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FindInstancesProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FindInvalidDataProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FindInvalidDataProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FixNormalsStep.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/FixNormalsStep.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/DropFaceNormalsProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/DropFaceNormalsProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/GenFaceNormalsProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/GenFaceNormalsProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/GenVertexNormalsProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/GenVertexNormalsProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/PretransformVertices.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/PretransformVertices.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ImproveCacheLocality.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ImproveCacheLocality.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/JoinVerticesProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/JoinVerticesProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/LimitBoneWeightsProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/LimitBoneWeightsProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/RemoveRedundantMaterials.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/RemoveRedundantMaterials.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/RemoveVCProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/RemoveVCProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/SortByPTypeProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/SortByPTypeProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/SplitLargeMeshes.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/SplitLargeMeshes.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/TextureTransform.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/TextureTransform.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/TriangulateProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/TriangulateProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ValidateDataStructure.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ValidateDataStructure.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/OptimizeGraph.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/OptimizeGraph.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/OptimizeMeshes.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/OptimizeMeshes.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/DeboneProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/DeboneProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ProcessHelper.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ProcessHelper.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/MakeVerboseFormat.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/MakeVerboseFormat.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ScaleProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ScaleProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ArmaturePopulate.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/ArmaturePopulate.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/GenBoundingBoxesProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/GenBoundingBoxesProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/SplitByBoneCountProcess.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/PostProcessing/SplitByBoneCountProcess.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Material/MaterialSystem.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Material/MaterialSystem.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STEPParser/STEPFileReader.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STEPParser/STEPFileReader.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STEPParser/STEPFileEncoding.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STEPParser/STEPFileEncoding.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AMF/AMFImporter.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AMF/AMFImporter_Node.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AMF/AMFImporter.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AMF/AMFImporter_Geometry.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AMF/AMFImporter_Material.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AMF/AMFImporter_Postprocess.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3DS/3DSConverter.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3DS/3DSHelper.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3DS/3DSLoader.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3DS/3DSLoader.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AC/ACLoader.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/AC/ACLoader.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/ASE/ASELoader.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/ASE/ASELoader.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/ASE/ASEParser.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/ASE/ASEParser.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assbin/AssbinLoader.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assbin/AssbinLoader.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/B3D/B3DImporter.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/B3D/B3DImporter.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/BVH/BVHLoader.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/BVH/BVHLoader.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaHelper.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaHelper.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaLoader.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaLoader.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaParser.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaParser.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/DXF/DXFLoader.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/DXF/DXFLoader.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/DXF/DXFHelper.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/CSM/CSMLoader.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/CSM/CSMLoader.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/HMP/HMPFileData.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/HMP/HMPLoader.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/HMP/HMPLoader.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/HMP/HalfLifeFileData.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Irr/IRRMeshLoader.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Irr/IRRMeshLoader.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Irr/IRRShared.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Irr/IRRShared.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Irr/IRRLoader.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Irr/IRRLoader.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOAnimation.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOAnimation.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOBLoader.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOFileData.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOLoader.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOLoader.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWO/LWOMaterial.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWS/LWSLoader.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/LWS/LWSLoader.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DMaterials.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DImporter.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DImporter.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DWrapper.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DWrapper.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/m3d.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD2/MD2FileData.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD2/MD2Loader.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD2/MD2Loader.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD2/MD2NormalTable.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD3/MD3FileData.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD3/MD3Loader.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD3/MD3Loader.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD5/MD5Loader.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD5/MD5Loader.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD5/MD5Parser.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MD5/MD5Parser.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDC/MDCFileData.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDC/MDCLoader.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDC/MDCLoader.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDC/MDCNormalTable.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/MDLDefaultColorMap.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/MDLFileData.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/MDLLoader.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/MDLLoader.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/MDLMaterialLoader.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HalfLifeMDLBaseHeader.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HL1FileData.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HL1MDLLoader.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HL1MDLLoader.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HL1ImportDefinitions.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HL1ImportSettings.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/HL1MeshTrivert.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/LogFunctions.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/NFF/NFFLoader.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/NFF/NFFLoader.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/NDO/NDOLoader.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/NDO/NDOLoader.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OFF/OFFLoader.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OFF/OFFLoader.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileData.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileImporter.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileImporter.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileMtlImporter.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileMtlImporter.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileParser.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjFileParser.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjTools.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreImporter.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreStructs.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreParsingUtils.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreBinarySerializer.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreXmlSerializer.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreImporter.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreStructs.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreBinarySerializer.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreXmlSerializer.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ogre/OgreMaterial.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OpenGEX/OpenGEXStructs.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ply/PlyLoader.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ply/PlyLoader.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ply/PlyParser.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ply/PlyParser.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MS3D/MS3DLoader.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MS3D/MS3DLoader.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/COB/COBLoader.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/COB/COBLoader.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/COB/COBScene.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderLoader.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderLoader.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderDNA.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderDNA.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderDNA.inl",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderScene.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderScene.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderSceneGen.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderIntermediate.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderModifier.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderModifier.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderBMesh.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderBMesh.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderTessellator.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderTessellator.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderCustomData.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Blender/BlenderCustomData.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCLoader.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCLoader.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCReaderGen1_2x3.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCReaderGen2_2x3.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCReaderGen_2x3.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCUtil.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCUtil.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCGeometry.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCMaterial.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCProfile.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCCurve.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCBoolean.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/IFC/IFCOpenings.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/XGL/XGLLoader.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/XGL/XGLLoader.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXImporter.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXCompileConfig.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXImporter.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXParser.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXParser.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXTokenizer.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXTokenizer.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXImportSettings.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXConverter.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXConverter.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXUtil.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXUtil.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXDocument.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXDocument.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXProperties.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXProperties.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXMeshGeometry.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXMeshGeometry.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXMaterial.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXModel.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXAnimation.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXNodeAttribute.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXDeformer.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXBinaryTokenizer.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXDocumentUtil.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXCommon.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3D/Q3DLoader.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3D/Q3DLoader.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3BSP/Q3BSPFileData.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3BSP/Q3BSPFileParser.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3BSP/Q3BSPFileParser.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Raw/RawLoader.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Raw/RawLoader.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/SIB/SIBImporter.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/SIB/SIBImporter.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/SMD/SMDLoader.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/SMD/SMDLoader.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STL/STLLoader.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STL/STLLoader.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Terragen/TerragenLoader.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Terragen/TerragenLoader.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Unreal/UnrealLoader.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Unreal/UnrealLoader.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileHelper.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileImporter.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileImporter.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileParser.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileParser.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X3D/X3DImporter.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X3D/X3DImporter.hpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFCommon.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFCommon.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFAsset.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFAsset.inl",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFAssetWriter.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFAssetWriter.inl",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFImporter.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFImporter.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2Asset.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2Asset.inl",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2AssetWriter.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2AssetWriter.inl",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2Importer.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2Importer.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/3MFTypes.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/XmlSerializer.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/XmlSerializer.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/D3MFImporter.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/D3MFImporter.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/D3MFOpcPackage.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/D3MFOpcPackage.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/3MFXmlTags.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDCpp14.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDImporter.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDImporter.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDPmdParser.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDPmxParser.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDPmxParser.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/MMD/MMDVmdParser.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjExporter.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Obj/ObjExporter.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OpenGEX/OpenGEXExporter.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/OpenGEX/OpenGEXExporter.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ply/PlyExporter.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Ply/PlyExporter.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3DS/3DSExporter.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3DS/3DSExporter.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assbin/AssbinExporter.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assbin/AssbinExporter.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assbin/AssbinFileWriter.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assbin/AssbinFileWriter.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assxml/AssxmlExporter.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assxml/AssxmlExporter.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assxml/AssxmlFileWriter.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assxml/AssxmlFileWriter.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DExporter.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/M3D/M3DExporter.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaExporter.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Collada/ColladaExporter.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXExporter.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXExporter.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXExportNode.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXExportNode.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXExportProperty.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/FBX/FBXExportProperty.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STL/STLExporter.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/STL/STLExporter.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileExporter.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X/XFileExporter.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X3D/X3DExporter.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/X3D/X3DExporter.hpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFExporter.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF/glTFExporter.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2Exporter.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/glTF2/glTF2Exporter.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/D3MFExporter.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/3MF/D3MFExporter.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/Pbrt/PbrtExporter.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/Pbrt/PbrtExporter.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assjson/cencode.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assjson/cencode.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assjson/json_exporter.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assjson/mesh_splitter.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Assjson/mesh_splitter.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Step/StepExporter.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/code/AssetLib/Step/StepExporter.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/common/shapes.cc",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/common/shapes.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/common/utils.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cc",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/clipper/clipper.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/clipper/clipper.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/code/OpenDDLParser.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/code/DDLNode.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/code/OpenDDLCommon.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/code/OpenDDLExport.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/code/Value.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/code/OpenDDLStream.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParser.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/OpenDDLExport.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/OpenDDLStream.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/DDLNode.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/openddlparser/include/openddlparser/Value.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcAdjacencyInfo.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcArithmeticCodec.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcArithmeticCodec.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcBinaryStream.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcCommon.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcDVEncodeParams.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcDynamicVectorDecoder.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcDynamicVectorDecoder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcDynamicVectorEncoder.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcDynamicVectorEncoder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcDynamicVector.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcFIFO.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcIndexedFaceSet.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcIndexedFaceSet.inl",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcSC3DMCDecoder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcSC3DMCDecoder.inl",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcSC3DMCEncodeParams.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcSC3DMCEncoder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcSC3DMCEncoder.inl",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTimer.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTools.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTriangleFans.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTriangleFans.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTriangleListDecoder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTriangleListDecoder.inl",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTriangleListEncoder.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcTriangleListEncoder.inl",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcVector.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/Open3DGC/o3dgcVector.inl",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/zip/src/miniz.h",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/zip/src/zip.c",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/zip/src/zip.h",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/pugixml/src/pugiconfig.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/pugixml/src/pugixml.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/contrib/stb/stb_image.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/anim.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/aabb.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/ai_assert.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/camera.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/color4.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/color4.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/External/saiga/submodules/assimp/include/assimp/config.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/ColladaMetaData.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/commonMetaData.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/defs.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/cfileio.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/light.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/material.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/material.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/matrix3x3.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/matrix3x3.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/matrix4x4.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/matrix4x4.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/mesh.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/pbrmaterial.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/postprocess.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/quaternion.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/quaternion.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/scene.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/metadata.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/texture.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/types.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/vector2.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/vector2.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/vector3.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/vector3.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/version.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/cimport.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/importerdesc.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Importer.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/ProgressHandler.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/IOStream.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/IOSystem.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/cexport.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Exporter.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/DefaultIOStream.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/DefaultIOSystem.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/ZipArchiveIOSystem.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SceneCombiner.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/fast_atof.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/qnan.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/BaseImporter.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Hash.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/MemoryIOWrapper.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/ParsingUtils.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/StreamReader.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/StreamWriter.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/StringComparison.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/StringUtils.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SGSpatialSort.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/GenericProperty.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SpatialSort.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SkeletonMeshBuilder.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SmallVector.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SmoothingGroups.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/SmoothingGroups.inl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/StandardShapes.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/RemoveComments.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Subdivision.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Vertex.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/LineSplitter.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/TinyFormatter.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Profiler.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/LogAux.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Bitmap.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/XMLTools.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/IOStreamBuffer.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/CreateAnimMesh.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/XmlParser.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/MathFunctions.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Exceptional.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/ByteSwapper.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Compiler/pushpack1.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Compiler/poppack1.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/submodules/assimp/include/assimp/Compiler/pstdint.h",
+			"sourceGroupIndex" : 67
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

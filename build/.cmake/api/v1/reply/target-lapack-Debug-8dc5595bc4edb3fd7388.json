@@ -1,0 +1,53 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"External/saiga/submodules/eigen/lapack/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "eigen_lapack::@eaff264796411a1c23cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "eigen_lapack_static::@eaff264796411a1c23cf"
+		}
+	],
+	"id" : "lapack::@eaff264796411a1c23cf",
+	"name" : "lapack",
+	"paths" : 
+	{
+		"build" : "External/saiga/submodules/eigen/lapack",
+		"source" : "External/saiga/submodules/eigen/lapack"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

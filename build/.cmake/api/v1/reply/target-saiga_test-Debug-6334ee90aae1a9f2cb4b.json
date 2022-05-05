@@ -1,0 +1,414 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "External/saiga/src/saiga_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"DefaultBuildType",
+			"find_package",
+			"include"
+		],
+		"files" : 
+		[
+			"External/saiga/src/CMakeLists.txt",
+			"External/saiga/cmake/helper_macros.cmake",
+			"External/saiga/CMakeLists.txt",
+			"External/saiga/cmake/FindOpenVR.cmake",
+			"External/saiga/cmake/Dependencies_opengl.cmake",
+			"External/saiga/cmake/Saiga_compiler_flags.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 131,
+				"parent" : 4
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 74,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 117,
+				"parent" : 13
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-strict-aliasing"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-missing-braces"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp=libomp"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "CMAKE_DEBUG"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "COMPILER_GCC"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "CUDA_DEBUG"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "GNUC"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LINUX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "POSIX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_LINUX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_POSIX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/shader/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/eigen"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/libpng"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/libpng"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/glog"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/glog/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/AL"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/opus"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "glog::@7186dcfc2060e5be515c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "zlibstatic::@72144b0e42b4e6100ac1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glfw::@5d21f000c92f2c29a754"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "png_static::@e4d2041d7f55469ac60e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "assimp::@349f475206c893dca44f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "saiga_core::@bcfa0a4f42ce6ccc1fd1"
+		}
+	],
+	"id" : "saiga_test::@fe6f954a427fdb2e94e8",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++17 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/lib:/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/bin:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lib/libsaiga_cored.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopenal.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopus.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopusfile.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libogg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfreeimage.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../lib/libglfwd.so.3.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../lib/libpng16d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../submodules/assimp/bin/libassimpd.so.5.0.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../lib/libzd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lminizip",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../lib/libglogd.so.0.6.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/llvm-9/lib/libomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "saiga_test",
+	"nameOnDisk" : "saiga_test",
+	"paths" : 
+	{
+		"build" : "External/saiga/src",
+		"source" : "External/saiga/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga_test.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"External/saiga/submodules/eigen/unsupported/doc/snippets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "unsupported_snippets::@f30904b6614883f83ecd",
+	"name" : "unsupported_snippets",
+	"paths" : 
+	{
+		"build" : "External/saiga/submodules/eigen/unsupported/doc/snippets",
+		"source" : "External/saiga/submodules/eigen/unsupported/doc/snippets"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

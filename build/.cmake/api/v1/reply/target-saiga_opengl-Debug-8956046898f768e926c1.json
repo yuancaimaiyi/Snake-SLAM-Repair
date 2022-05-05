@@ -1,0 +1,4581 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "External/saiga/lib/libsaiga_opengld.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"add_definitions",
+			"DefaultBuildType",
+			"find_package",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"External/saiga/src/saiga/opengl/CMakeLists.txt",
+			"External/saiga/cmake/helper_macros.cmake",
+			"External/saiga/CMakeLists.txt",
+			"External/saiga/cmake/FindOpenVR.cmake",
+			"External/saiga/cmake/Dependencies_opengl.cmake",
+			"External/saiga/cmake/Saiga_compiler_flags.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 131,
+				"parent" : 6
+			},
+			{
+				"file" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 74,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 6
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 117,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -g -fPIC"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-strict-aliasing"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-braces"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fopenmp=libomp"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "CMAKE_DEBUG"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "COMPILER_GCC"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "CUDA_DEBUG"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GNUC"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LINUX"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "POSIX"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "SAIGA_DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LINUX"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_POSIX"
+				},
+				{
+					"define" : "saiga_opengl_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/src/saiga/opengl/glbinding/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/shader/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/usr/include/bullet"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/eigen"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/glfw/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/zlib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/libpng"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/libpng"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/code/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/glog"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/External/saiga/submodules/glog/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/AL"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/opus"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				17,
+				20,
+				22,
+				23,
+				24,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				456,
+				457,
+				460,
+				461,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				533,
+				534,
+				535,
+				536,
+				543,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				589,
+				590,
+				591,
+				592,
+				593,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "glog::@7186dcfc2060e5be515c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "zlibstatic::@72144b0e42b4e6100ac1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "glfw::@5d21f000c92f2c29a754"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "png_static::@e4d2041d7f55469ac60e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "assimp::@349f475206c893dca44f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "saiga_core::@bcfa0a4f42ce6ccc1fd1"
+		}
+	],
+	"id" : "saiga_opengl::@885d497b65eef4595d02",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/lib:/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/assimp/bin:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfreetype.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libBulletDynamics.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libBulletCollision.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libLinearMath.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavformat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavutil.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libswscale.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtheora.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../lib/libsaiga_cored.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopenal.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopus.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopusfile.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libogg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfreeimage.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libglfwd.so.3.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libpng16d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../submodules/assimp/bin/libassimpd.so.5.0.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libzd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lminizip",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libglogd.so.0.6.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/llvm-9/lib/libomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "saiga_opengl",
+	"nameOnDisk" : "libsaiga_opengld.so",
+	"paths" : 
+	{
+		"build" : "External/saiga/src/saiga/opengl",
+		"source" : "External/saiga/src/saiga/opengl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				17,
+				20,
+				22,
+				23,
+				24,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				456,
+				457,
+				460,
+				461,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				533,
+				534,
+				535,
+				536,
+				543,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				589,
+				590,
+				591,
+				592,
+				593,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				18,
+				19,
+				21,
+				25,
+				26,
+				27,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				458,
+				459,
+				462,
+				463,
+				464,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				544,
+				545,
+				546,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				594,
+				595,
+				596,
+				597,
+				598,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/animation/boneShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/animation/boneVertex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/animation/boneShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/animation/boneVertex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assets/AssetRenderSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assets/animatedAsset.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assets/animatedAssetObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assets/asset.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assets/coloredAsset.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assets/simpleAssetObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/AssetRenderSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/animatedAsset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/animatedAssetObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/asset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/coloredAsset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assets/simpleAssetObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/assimp/assimpAssetLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assimp/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/assimp/assimpAssetLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/egl/offscreen_window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/egl/offscreen_window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/ffmpeg/ffmpegAudioEncoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/ffmpeg/ffmpegEncoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/ffmpeg/videoEncoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/ffmpeg/ffmpegAudioEncoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/ffmpeg/ffmpegEncoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/ffmpeg/videoEncoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/AbstractFunction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/AbstractState.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/AbstractValue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_list.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_a.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_b.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_c.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_d.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_e.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_f.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_g.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_h.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_i.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_j.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_k.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_l.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_m.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_n.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_o.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_q.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_r.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_s.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_t.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_u.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_v.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_w.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_x.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_y.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_objects_z.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_pch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/FunctionCall.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/State.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions-patches.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_a.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_b.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_c.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_d.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_e.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_f.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_g.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_h.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_i.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_j.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_k.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_l.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_m.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_n.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_o.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_q.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_r.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_s.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_t.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_u.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_v.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_w.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_x.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_y.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/gl/functions_z.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/glbinding.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/AbstractFunction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/AbstractState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/AbstractValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Binding.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Boolean8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Boolean8.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/CallbackMask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/CallbackMask.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/ContextHandle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Function.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Function.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/FunctionCall.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/ProcAddress.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/SharedBitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/SharedBitfield.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/State.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Value.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Value.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/Version.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/extension.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/functions-patches.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl10ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl11ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl12ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl13ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl14ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl15ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl20ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl21ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl30ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl31ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl32ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl33ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl40ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl41ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl42ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl43ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl44ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl45ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46core/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/bitfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/boolean.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/gl46ext/values.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/glbinding.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/glbinding_api.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/glbinding_export.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/glbinding_features.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/include/glbinding/nogl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glbinding/source/Binding_pch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/imgui/imgui_impl_glfw_gl3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/imgui/imgui_opengl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/imgui/imgui_impl_glfw_gl3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/imgui/imgui_opengl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/query/gpuTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/query/timeStampQuery.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/query/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/query/gpuTimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/query/timeStampQuery.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/VRRendering/VRRenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/deferred_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/gbuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/postProcessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/tone_mapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/uber_deferred_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/forwardRendering/forward_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/attenuated_light.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/bloom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/clusterer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/cpu_plane_clusterer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/deferred_light_shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/deferred_lighting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/directional_light.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/forward_lighting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/gpu_aabb_clusterer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/light.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/light_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/point_light.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/renderer_lighting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/shadow_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/six_plane_clusterer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/spot_light.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/ssao.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/uber_deferred_lighting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/overlay/Layout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/overlay/textDebugOverlay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/particles/particle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/particles/particle_shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/particles/particlesystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/program.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/rendering/renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/VRRendering/VRRenderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/deferredRendering.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/deferred_renderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/gbuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/postProcessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/tone_mapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/uberDeferredRendering.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/deferredRendering/uber_deferred_renderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/forwardRendering/forwardRendering.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/forwardRendering/forward_renderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/attenuated_light.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/bloom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/clusterer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/cpu_plane_clusterer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/deferred_light_shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/deferred_lighting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/directional_light.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/forward_lighting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/gpu_aabb_clusterer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/light.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/light_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/point_light.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/renderer_lighting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/shadow_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/six_plane_clusterer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/spot_light.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/ssao.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/lighting/uber_deferred_lighting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/overlay/Layout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/overlay/textDebugOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/particles/particle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/particles/particle_shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/particles/particlesystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/program.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/rendering/renderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/shader/basic_shaders.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/shader/shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/shader/shaderLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/shader/shaderpart.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shader/UniformHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shader/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shader/basic_shaders.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shader/shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shader/shaderLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shader/shaderpart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/smaa/SMAA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/smaa/AreaTex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/smaa/SMAA.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/smaa/SearchTex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/TextOverlay2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/TextOverlay3D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/fontLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/text.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/textAtlas.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/textParameters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/text/textShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/TextOverlay2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/TextOverlay3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/fontLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/text.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/textAtlas.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/textParameters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/text/textShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/texture/ArrayTexture2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/texture/CubeTexture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/texture/Texture2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/texture/Texture3D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/texture/TextureBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/texture/TextureLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/ArrayTexture2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/CubeTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/Texture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/Texture2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/Texture3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/TextureBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/TextureLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/texture/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/window/OpenGLWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/window/RendererSampleWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/window/SampleWindowDeferred.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/window/SampleWindowForward.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/window/glfw_window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/window/message_box.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/OpenGLWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/RendererSampleWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/SampleWindowDeferred.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/SampleWindowForward.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/WindowTemplate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/glfw_window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/window/message_box.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/world/LineSoup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/world/TextureDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/world/pointCloud.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/world/proceduralSkybox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/world/skybox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/world/LineSoup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/world/TextureDisplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/world/pointCloud.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/world/proceduralSkybox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/world/skybox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/UnifiedMeshBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/error.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/framebuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/glImageFormat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/opengl_helper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/shaderStorageBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/uniformBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "External/saiga/src/saiga/opengl/vertex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/UnifiedMeshBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/buffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/combinedBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/error.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/framebuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/glImageFormat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/indexBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/indexedVertexBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/instancedBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/opengl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/opengl_helper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/shaderStorageBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/templatedBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/tesselatedIndexedVertexBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/uniformBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/vertex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "External/saiga/src/saiga/opengl/vertexBuffer.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

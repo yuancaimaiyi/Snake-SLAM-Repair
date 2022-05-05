@@ -1,0 +1,53 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"External/saiga/submodules/eigen/blas/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "eigen_blas_static::@f32f18da367091c2fd16"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "eigen_blas::@f32f18da367091c2fd16"
+		}
+	],
+	"id" : "blas::@f32f18da367091c2fd16",
+	"name" : "blas",
+	"paths" : 
+	{
+		"build" : "External/saiga/submodules/eigen/blas",
+		"source" : "External/saiga/submodules/eigen/blas"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

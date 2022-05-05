@@ -1,0 +1,854 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2d3ee/fast && /usr/bin/make  -f CMakeFiles/cmTC_2d3ee.dir/build.make CMakeFiles/cmTC_2d3ee.dir/build
+make[1]: Entering directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d3ee.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -DCOMPILER_SUPPORT_Wlogicalop -Werror   -Wlogical-op -o CMakeFiles/cmTC_2d3ee.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+CMakeFiles/cmTC_2d3ee.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_2d3ee.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2d3ee.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_2d3ee/fast' failed
+make: *** [cmTC_2d3ee/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db91a/fast && /usr/bin/make  -f CMakeFiles/cmTC_db91a.dir/build.make CMakeFiles/cmTC_db91a.dir/build
+make[1]: Entering directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db91a.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -o CMakeFiles/cmTC_db91a.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wno-psabi' [-Werror,-Wunknown-warning-option]
+CMakeFiles/cmTC_db91a.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_db91a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_db91a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_db91a/fast' failed
+make: *** [cmTC_db91a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13225/fast && /usr/bin/make  -f CMakeFiles/cmTC_13225.dir/build.make CMakeFiles/cmTC_13225.dir/build
+make[1]: Entering directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13225.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_13225.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+clang-10: error: unknown argument: '-wd981'
+CMakeFiles/cmTC_13225.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_13225.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_13225.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_13225/fast' failed
+make: *** [cmTC_13225/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5bc09/fast && /usr/bin/make  -f CMakeFiles/cmTC_5bc09.dir/build.make CMakeFiles/cmTC_5bc09.dir/build
+make[1]: Entering directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5bc09.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_5bc09.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+clang-10: error: unknown argument: '-wd2304'
+CMakeFiles/cmTC_5bc09.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_5bc09.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5bc09.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_5bc09/fast' failed
+make: *** [cmTC_5bc09/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1d14/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1d14.dir/build.make CMakeFiles/cmTC_f1d14.dir/build
+make[1]: Entering directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1d14.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_f1d14.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+clang-10: error: unknown argument: '-strict-ansi'
+CMakeFiles/cmTC_f1d14.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_f1d14.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f1d14.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_f1d14/fast' failed
+make: *** [cmTC_f1d14/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Looking for a Fortran compiler failed with the following output:
+-- The Fortran compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "FC" or the CMake cache entry CMAKE_Fortran_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/licheng/Snake-SLAM/snake-slam/build/External/saiga/submodules/eigen/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+See also "/home/licheng/Snake-SLAM/snake-slam/build/External/saiga/submodules/eigen/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeError.log".
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2397/fast && /usr/bin/make  -f CMakeFiles/cmTC_c2397.dir/build.make CMakeFiles/cmTC_c2397.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c2397.dir/src.c.o
+/usr/bin/cc   -Wall     -Wall -O3 -march=native -Wno-reorder -DCMAKE_HAVE_LIBC_PTHREAD -fPIE -o CMakeFiles/cmTC_c2397.dir/src.c.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c2397
+/usr/local/cmake/cmake-3.18.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2397.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -Wall -O3 -march=native -Wno-reorder -DCMAKE_HAVE_LIBC_PTHREAD -rdynamic CMakeFiles/cmTC_c2397.dir/src.c.o -o cmTC_c2397 
+CMakeFiles/cmTC_c2397.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x20)：对‘pthread_create’未定义的引用
+src.c:(.text+0x29)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x32)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x3d)：对‘pthread_join’未定义的引用
+src.c:(.text+0x48)：对‘pthread_atfork’未定义的引用
+clang-10: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_c2397.dir/build.make:105: recipe for target 'cmTC_c2397' failed
+make[1]: *** [cmTC_c2397] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_c2397/fast' failed
+make: *** [cmTC_c2397/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2af74/fast && /usr/bin/make  -f CMakeFiles/cmTC_2af74.dir/build.make CMakeFiles/cmTC_2af74.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2af74.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_2af74.dir/CheckFunctionExists.c.o -c /usr/local/cmake/cmake-3.18.0-Linux-x86_64/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2af74
+/usr/local/cmake/cmake-3.18.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2af74.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_2af74.dir/CheckFunctionExists.c.o -o cmTC_2af74  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+clang-10: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_2af74.dir/build.make:105: recipe for target 'cmTC_2af74' failed
+make[1]: *** [cmTC_2af74] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_2af74/fast' failed
+make: *** [cmTC_2af74/fast] Error 2
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dbdca/fast && /usr/bin/make  -f CMakeFiles/cmTC_dbdca.dir/build.make CMakeFiles/cmTC_dbdca.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_dbdca.dir/HAVE___UINT16.cpp.o
+/usr/bin/c++   -std=c++17  -fPIE -o CMakeFiles/cmTC_dbdca.dir/HAVE___UINT16.cpp.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:30:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:30:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:31:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:31:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:32:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:32:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:33:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:33:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+CMakeFiles/cmTC_dbdca.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_dbdca.dir/HAVE___UINT16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_dbdca.dir/HAVE___UINT16.cpp.o] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_dbdca/fast' failed
+make: *** [cmTC_dbdca/fast] Error 2
+
+
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9b17c/fast && /usr/bin/make  -f CMakeFiles/cmTC_9b17c.dir/build.make CMakeFiles/cmTC_9b17c.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9b17c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=dladdr -fPIE -o CMakeFiles/cmTC_9b17c.dir/CheckFunctionExists.c.o -c /usr/local/cmake/cmake-3.18.0-Linux-x86_64/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9b17c
+/usr/local/cmake/cmake-3.18.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b17c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=dladdr -rdynamic CMakeFiles/cmTC_9b17c.dir/CheckFunctionExists.c.o -o cmTC_9b17c 
+CMakeFiles/cmTC_9b17c.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x9)：对‘dladdr’未定义的引用
+clang-10: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_9b17c.dir/build.make:105: recipe for target 'cmTC_9b17c' failed
+make[1]: *** [cmTC_9b17c] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_9b17c/fast' failed
+make: *** [cmTC_9b17c/fast] Error 2
+
+
+
+Determining if the pthread_threadid_np exist failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d38c3/fast && /usr/bin/make  -f CMakeFiles/cmTC_d38c3.dir/build.make CMakeFiles/cmTC_d38c3.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d38c3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -std=c++17  -fPIE -o CMakeFiles/cmTC_d38c3.dir/CheckSymbolExists.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'pthread_threadid_np'; did you mean 'pthread_tryjoin_np'?
+  return ((int*)(&pthread_threadid_np))[argc];
+                  ^~~~~~~~~~~~~~~~~~~
+                  pthread_tryjoin_np
+/usr/include/pthread.h:256:12: note: 'pthread_tryjoin_np' declared here
+extern int pthread_tryjoin_np (pthread_t __th, void **__thread_return) __THROW;
+           ^
+1 error generated.
+CMakeFiles/cmTC_d38c3.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_d38c3.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d38c3.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_d38c3/fast' failed
+make: *** [cmTC_d38c3/fast] Error 2
+
+
+File /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_threadid_np
+  return ((int*)(&pthread_threadid_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5bea2/fast && /usr/bin/make  -f CMakeFiles/cmTC_5bea2.dir/build.make CMakeFiles/cmTC_5bea2.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5bea2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_5bea2.dir/CheckFunctionExists.c.o -c /usr/local/cmake/cmake-3.18.0-Linux-x86_64/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5bea2
+/usr/local/cmake/cmake-3.18.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bea2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -rdynamic CMakeFiles/cmTC_5bea2.dir/CheckFunctionExists.c.o -o cmTC_5bea2  -ldbghelp 
+/usr/bin/ld: 找不到 -ldbghelp
+clang-10: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_5bea2.dir/build.make:105: recipe for target 'cmTC_5bea2' failed
+make[1]: *** [cmTC_5bea2] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_5bea2/fast' failed
+make: *** [cmTC_5bea2/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2291e/fast && /usr/bin/make  -f CMakeFiles/cmTC_2291e.dir/build.make CMakeFiles/cmTC_2291e.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2291e.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -DHAVE_RWLOCK -fPIE -o CMakeFiles/cmTC_2291e.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2291e
+/usr/local/cmake/cmake-3.18.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2291e.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++17 -DHAVE_RWLOCK CMakeFiles/cmTC_2291e.dir/src.cxx.o -o cmTC_2291e 
+CMakeFiles/cmTC_2291e.dir/src.cxx.o：在函数‘main’中：
+src.cxx:(.text+0x18)：对‘pthread_rwlock_init’未定义的引用
+src.cxx:(.text+0x24)：对‘pthread_rwlock_rdlock’未定义的引用
+clang-10: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_2291e.dir/build.make:105: recipe for target 'cmTC_2291e' failed
+make[1]: *** [cmTC_2291e] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_2291e/fast' failed
+make: *** [cmTC_2291e/fast] Error 2
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ece4f/fast && /usr/bin/make  -f CMakeFiles/cmTC_ece4f.dir/build.make CMakeFiles/cmTC_ece4f.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ece4f.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -DHAVE___DECLSPEC -fPIE -o CMakeFiles/cmTC_ece4f.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(selectany) int a;
+^
+1 error generated.
+CMakeFiles/cmTC_ece4f.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_ece4f.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ece4f.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_ece4f/fast' failed
+make: *** [cmTC_ece4f/fast] Error 2
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da2a6/fast && /usr/bin/make  -f CMakeFiles/cmTC_da2a6.dir/build.make CMakeFiles/cmTC_da2a6.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_da2a6.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -DSTL_NO_NAMESPACE -fPIE -o CMakeFiles/cmTC_da2a6.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_vector.h:389:11: note: 'std::vector' declared here
+    class vector : protected _Vector_base<_Tp, _Alloc>
+          ^
+1 error generated.
+CMakeFiles/cmTC_da2a6.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_da2a6.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_da2a6.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_da2a6/fast' failed
+make: *** [cmTC_da2a6/fast] Error 2
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ebbd/fast && /usr/bin/make  -f CMakeFiles/cmTC_0ebbd.dir/build.make CMakeFiles/cmTC_0ebbd.dir/build
+make[1]: 进入目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0ebbd.dir/src.cxx.o
+/usr/bin/c++   -std=c++17 -DHAVE_MSVC_TLS -fPIE -o CMakeFiles/cmTC_0ebbd.dir/src.cxx.o -c /home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx
+/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(thread) int tls;
+^
+1 error generated.
+CMakeFiles/cmTC_0ebbd.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_0ebbd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0ebbd.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/licheng/Snake-SLAM/snake-slam/build/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_0ebbd/fast' failed
+make: *** [cmTC_0ebbd/fast] Error 2
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+clang version 10.0.1 (https://gitee.com/yinanzhang2021/llvm-project.git ef32c611aa214dea855364efd7ba451ec5ec3f74)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_58635 && [1/2] Building CXX object CMakeFiles/cmTC_58635.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_58635.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -DCOMPILER_SUPPORT_Wlogicalop -Werror   -Wlogical-op -MD -MT CMakeFiles/cmTC_58635.dir/src.cxx.o -MF CMakeFiles/cmTC_58635.dir/src.cxx.o.d -o CMakeFiles/cmTC_58635.dir/src.cxx.o -c src.cxx
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9e4fc && [1/2] Building CXX object CMakeFiles/cmTC_9e4fc.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_9e4fc.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -MD -MT CMakeFiles/cmTC_9e4fc.dir/src.cxx.o -MF CMakeFiles/cmTC_9e4fc.dir/src.cxx.o.d -o CMakeFiles/cmTC_9e4fc.dir/src.cxx.o -c src.cxx
+error: unknown warning option '-Wno-psabi' [-Werror,-Wunknown-warning-option]
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a74a4 && [1/2] Building CXX object CMakeFiles/cmTC_a74a4.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_a74a4.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -MD -MT CMakeFiles/cmTC_a74a4.dir/src.cxx.o -MF CMakeFiles/cmTC_a74a4.dir/src.cxx.o.d -o CMakeFiles/cmTC_a74a4.dir/src.cxx.o -c src.cxx
+clang: error: unknown argument: '-wd981'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_599ba && [1/2] Building CXX object CMakeFiles/cmTC_599ba.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_599ba.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -MD -MT CMakeFiles/cmTC_599ba.dir/src.cxx.o -MF CMakeFiles/cmTC_599ba.dir/src.cxx.o.d -o CMakeFiles/cmTC_599ba.dir/src.cxx.o -c src.cxx
+clang: error: unknown argument: '-wd2304'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_af209 && [1/2] Building CXX object CMakeFiles/cmTC_af209.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_af209.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -MD -MT CMakeFiles/cmTC_af209.dir/src.cxx.o -MF CMakeFiles/cmTC_af209.dir/src.cxx.o.d -o CMakeFiles/cmTC_af209.dir/src.cxx.o -c src.cxx
+clang: error: unknown argument: '-strict-ansi'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Looking for a Fortran compiler failed with the following output:
+CMake Error at CMakeLists.txt:2 (project):
+  The Ninja generator does not support Fortran using Ninja version
+
+    1.8.2
+
+  due to lack of required features.  Ninja 1.10 or higher is required.
+
+
+CMake Error: CMAKE_Fortran_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/External/saiga/submodules/eigen/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bae76 && [1/2] Building C object CMakeFiles/cmTC_bae76.dir/src.c.o
+[2/2] Linking C executable cmTC_bae76
+FAILED: cmTC_bae76 
+: && /usr/bin/clang-9 -Wall     -Wall -O3 -march=native -Wno-reorder -DCMAKE_HAVE_LIBC_PTHREAD -rdynamic CMakeFiles/cmTC_bae76.dir/src.c.o -o cmTC_bae76   && :
+CMakeFiles/cmTC_bae76.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x20)：对‘pthread_create’未定义的引用
+src.c:(.text+0x29)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x32)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x3d)：对‘pthread_join’未定义的引用
+src.c:(.text+0x48)：对‘pthread_atfork’未定义的引用
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_80a56 && [1/2] Building C object CMakeFiles/cmTC_80a56.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_80a56
+FAILED: cmTC_80a56 
+: && /usr/bin/clang-9 -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_80a56.dir/CheckFunctionExists.c.o -o cmTC_80a56  -lpthreads && :
+/usr/bin/ld: 找不到 -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a4c38 && [1/2] Building CXX object CMakeFiles/cmTC_a4c38.dir/HAVE___UINT16.cpp.o
+FAILED: CMakeFiles/cmTC_a4c38.dir/HAVE___UINT16.cpp.o 
+/usr/bin/clang++-9   -std=c++17  -fPIE -MD -MT CMakeFiles/cmTC_a4c38.dir/HAVE___UINT16.cpp.o -MF CMakeFiles/cmTC_a4c38.dir/HAVE___UINT16.cpp.o.d -o CMakeFiles/cmTC_a4c38.dir/HAVE___UINT16.cpp.o -c /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:30:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:30:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:31:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:31:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:32:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:32:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:33:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:33:12: note: to match this '('
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+/home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e1a59 && [1/2] Building C object CMakeFiles/cmTC_e1a59.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e1a59
+FAILED: cmTC_e1a59 
+: && /usr/bin/clang-9 -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=dladdr -rdynamic CMakeFiles/cmTC_e1a59.dir/CheckFunctionExists.c.o -o cmTC_e1a59   && :
+CMakeFiles/cmTC_e1a59.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x9)：对‘dladdr’未定义的引用
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the pthread_threadid_np exist failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5b44c && [1/2] Building CXX object CMakeFiles/cmTC_5b44c.dir/CheckSymbolExists.cxx.o
+FAILED: CMakeFiles/cmTC_5b44c.dir/CheckSymbolExists.cxx.o 
+/usr/bin/clang++-9   -std=c++17  -fPIE -MD -MT CMakeFiles/cmTC_5b44c.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_5b44c.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_5b44c.dir/CheckSymbolExists.cxx.o -c CheckSymbolExists.cxx
+CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'pthread_threadid_np'; did you mean 'pthread_tryjoin_np'?
+  return ((int*)(&pthread_threadid_np))[argc];
+                  ^~~~~~~~~~~~~~~~~~~
+                  pthread_tryjoin_np
+/usr/include/pthread.h:256:12: note: 'pthread_tryjoin_np' declared here
+extern int pthread_tryjoin_np (pthread_t __th, void **__thread_return) __THROW;
+           ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_threadid_np
+  return ((int*)(&pthread_threadid_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_de734 && [1/2] Building C object CMakeFiles/cmTC_de734.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_de734
+FAILED: cmTC_de734 
+: && /usr/bin/clang-9 -Wall     -Wall -O3 -march=native -Wno-reorder -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -rdynamic CMakeFiles/cmTC_de734.dir/CheckFunctionExists.c.o -o cmTC_de734  -ldbghelp && :
+/usr/bin/ld: 找不到 -ldbghelp
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f1989 && [1/2] Building CXX object CMakeFiles/cmTC_f1989.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f1989
+FAILED: cmTC_f1989 
+: && /usr/bin/clang++-9 -std=c++17 -DHAVE_RWLOCK  CMakeFiles/cmTC_f1989.dir/src.cxx.o -o cmTC_f1989   && :
+CMakeFiles/cmTC_f1989.dir/src.cxx.o：在函数‘main’中：
+src.cxx:(.text+0x18)：对‘pthread_rwlock_init’未定义的引用
+src.cxx:(.text+0x24)：对‘pthread_rwlock_rdlock’未定义的引用
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_016c1 && [1/2] Building CXX object CMakeFiles/cmTC_016c1.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_016c1.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -DHAVE___DECLSPEC -fPIE -MD -MT CMakeFiles/cmTC_016c1.dir/src.cxx.o -MF CMakeFiles/cmTC_016c1.dir/src.cxx.o.d -o CMakeFiles/cmTC_016c1.dir/src.cxx.o -c src.cxx
+src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(selectany) int a;
+^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3baa0 && [1/2] Building CXX object CMakeFiles/cmTC_3baa0.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_3baa0.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -DSTL_NO_NAMESPACE -fPIE -MD -MT CMakeFiles/cmTC_3baa0.dir/src.cxx.o -MF CMakeFiles/cmTC_3baa0.dir/src.cxx.o.d -o CMakeFiles/cmTC_3baa0.dir/src.cxx.o -c src.cxx
+src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_vector.h:389:11: note: 'std::vector' declared here
+    class vector : protected _Vector_base<_Tp, _Alloc>
+          ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /home/licheng/Snake-SLAM/snake-slam/Snake-SLAM-Repair/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1bd1c && [1/2] Building CXX object CMakeFiles/cmTC_1bd1c.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_1bd1c.dir/src.cxx.o 
+/usr/bin/clang++-9   -std=c++17 -DHAVE_MSVC_TLS -fPIE -MD -MT CMakeFiles/cmTC_1bd1c.dir/src.cxx.o -MF CMakeFiles/cmTC_1bd1c.dir/src.cxx.o.d -o CMakeFiles/cmTC_1bd1c.dir/src.cxx.o -c src.cxx
+src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(thread) int tls;
+^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+clang version 9.0.0-2~ubuntu18.04.2 (tags/RELEASE_900/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin

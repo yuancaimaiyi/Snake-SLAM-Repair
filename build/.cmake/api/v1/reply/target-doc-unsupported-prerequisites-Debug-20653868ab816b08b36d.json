@@ -1,0 +1,84 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"External/saiga/submodules/eigen/doc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "unsupported_examples::@24387afbe2878a0b72cd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "unsupported_snippets::@f30904b6614883f83ecd"
+		}
+	],
+	"id" : "doc-unsupported-prerequisites::@372dcdb8b215baaf8541",
+	"name" : "doc-unsupported-prerequisites",
+	"paths" : 
+	{
+		"build" : "External/saiga/submodules/eigen/doc",
+		"source" : "External/saiga/submodules/eigen/doc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/External/saiga/submodules/eigen/doc/CMakeFiles/doc-unsupported-prerequisites",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/External/saiga/submodules/eigen/doc/CMakeFiles/doc-unsupported-prerequisites.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
