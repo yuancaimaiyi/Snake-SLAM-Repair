@@ -33,5 +33,24 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 ```
 3.程序内部错误  
 (1) 变量定义与saiga 后端不一致  
-![](https://secure2.wostatic.cn/static/pXKFv8CNm6qar1VtUr8Vtk/image.png)  
+
+![](https://secure2.wostatic.cn/static/vsmWHUzT4yMx4WXTnx1y4t/image.png)
+
+(2） 参数定义错误
+
+Intrinsics4是文件名，作者用来定义变量
+(3) 关于特征提取部分，取消saiga /features/ORBExtractor.h 的宏定义
+(4) ORBExtractor.cpp **未定义的引用**
+
+未定义的引用一般是没有链接上库造成的，修改saiga/vision  CMakeLists.txt    
+(5) saiga /opengl /world/GLPointCloud 未定义的应用
+
+**修改后，可视化仍然存在问题,这个需要继续跟踪**
+(6) tracking 县城的时候，报段错误
+
+原因：cuda orb 实现有问题 
+(7) 读取标定文件的时候saiga yaml.h 报错
+
+解决方法：内参加入s,s=0 (对于Euroc数据）
+
 
