@@ -43,13 +43,13 @@ Intrinsics4是文件名，作者用来定义变量
 (4) ORBExtractor.cpp **未定义的引用**
 
 未定义的引用一般是没有链接上库造成的，修改saiga/vision  CMakeLists.txt    
-(5) saiga /opengl /world/GLPointCloud 未定义的应用
+(5) saiga /opengl /world/GLPointCloud 未定义的应用  
 
 **修改后，可视化仍然存在问题,这个需要继续跟踪**
 (6) tracking 县城的时候，报段错误
 
 原因：cuda orb 实现有问题 
-(7) 读取标定文件的时候saiga yaml.h 报错
+(7) 读取标定文件的时候saiga yaml.h 报错  
 
 解决方法：内参加入s,s=0 (对于Euroc数据）
 
