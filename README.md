@@ -25,3 +25,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}     -Wall -O3 -march=native -Wno-reorder")
 ```
+2. cmake的时候提示找不到filesystem ，解决方法  
+```C
+set(CMAKE_CXX_STANDARD 17)  
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+```
+3.程序内部错误  
+(1) 变量定义与saiga 后端不一致  
+![](https://secure2.wostatic.cn/static/pXKFv8CNm6qar1VtUr8Vtk/image.png)
