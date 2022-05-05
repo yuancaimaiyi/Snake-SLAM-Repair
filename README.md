@@ -7,4 +7,8 @@ gcc : 9.4.0
 
 cmake: 3.18.0
 
-cuda : 11.1
+cuda : 11.1  
+## bugs 
+1. cmakelists 中，cmake的时候会出现找不到c编译器，在build/CMakeError.log有如下：  
+c++: error: unrecognized command line option '-Wshorten-64-to-32'  
+
