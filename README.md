@@ -8,7 +8,7 @@ gcc : 9.4.0
 cmake: 3.18.0
 
 cuda : 11.1  
-## 最新更新：  
+## 更新：  
 snake-slam 作者已经修复所有的bug，可以自行编译，仓库地址：https://github.com/darglein/Snake-SLAM  ;自己测试效果见b站：https://www.bilibili.com/video/BV1KB4y127w4  
 ## bugs 
 1. cmakelists 中，cmake的时候会出现找不到c编译器，在build/CMakeError.log有如下：  
